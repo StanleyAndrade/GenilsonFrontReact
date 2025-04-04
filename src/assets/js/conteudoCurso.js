@@ -31,7 +31,7 @@ const Curso = () => {
 
     // Validação da senha
     function validarSenha() {
-        if (senha !== 'Cest4e') {
+        if (senha !== '') {
             alert("Senha incorreta! Tente novamente.");
             return false; // Impede o envio do formulário
         }
